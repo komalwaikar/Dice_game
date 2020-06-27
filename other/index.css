@@ -1,0 +1,47 @@
+/* h1{
+    font-family: cursive;
+    text-shadow: 5px 0px white;
+    font-size: 6rem;
+    color: #FBB537;
+} */
+p{
+    font-size: 2rem;
+    text-shadow: 1px 1px white;
+    color: #00b894;
+    font-weight: bolder;
+}
+.but{
+    background-color:#00b894 ;
+    width: 100px;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+
+}
+
+.neon{
+    text-shadow: 5px 0px white;
+    text-align: center;
+}
+
+.neon h1{
+    font-family: cursive;
+    font-size: 9rem;
+    text-align: center;
+    font-weight: bold;
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate ;
+}
+@-webkit-keyframes glow{
+    from{
+        color: #FBB537  ;
+        text-shadow: 0 0 10px #00b894 , 0 0 20px #00b894, 0 0 30px #00b894, 0 0 40px #00b894 , 0 0 50px white
+        0 0 60px #00b894 , 0 0 70 #00b894 , 0 0 90 #00b894;
+    }
+
+    to{
+        color: #b1b493;
+        text-shadow: 0 0 10px #00b894 , 0 0 20px #00b894, 0 0 30px , 0 0 40px #00b894 , 0 0 50px #00b894
+        0 0 60px #00b894 , 0 0 70#00b894 , 0 0 90 #00b894 ;
+    }
+}
